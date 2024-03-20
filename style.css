@@ -1,0 +1,35 @@
+.imgContainer {
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100dvh;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+}
+
+.button {
+    padding: 10px 10px;
+    margin-bottom: 5%;
+    border-radius: 25px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: inherit !important;
+    color:antiquewhite !important;
+    border-width: 100px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
